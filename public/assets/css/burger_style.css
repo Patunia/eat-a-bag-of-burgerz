@@ -1,0 +1,80 @@
+
+body{
+  background: url("../images/hand-drawn-hamburger-wallpaper.png");
+	height: 100%;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#title{
+  font-family: 'Acme', sans-serif;
+  text-align:center;
+  font-size: 100px;
+  color:#428bca;
+  text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+}
+
+p, li{
+  font-size: 20px;
+  margin-bottom:25px;
+
+}
+
+h2{
+
+  font-weight: bold !important;
+  padding-bottom:10px;
+  text-align:center;
+}
+
+label {
+  font-weight: bold;
+  font-size:16px;
+}
+
+.uneaten, .eaten{
+   padding: 5px;
+  margin: 5px;
+  background: rgba(0,0,0, 0.4);
+  background: rgba(250,235,215, 0.9);
+  width: 400px;
+  font-weight: bold;
+}
+
+
+.add-new {
+  background: rgba(250,235,215, 0.9);
+  margin-top:10px;
+  margin-left:100px;
+  width:350px;
+  padding-top:2px;
+  padding-bottom:9px;  
+}
+
+.form-group{
+  text-align: center;
+}
+
+#submit-button{
+  margin-left:40%;
+  padding:10px;
+}
+
+#eat-burger{
+    position:absolute;
+    right:90px;
+    padding:10px;
+    margin-bottom:5px;
+}
+
+.create-form {
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
